@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 90px;
+    position: relative;
+}
+header>.blackbar{
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top: -25%;
+    z-index: 0;
+    left: -25%;
+    filter: blur(135px);
+    background-color: #19191A;
+}
+header>div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+header>.logo,
+header>.content-button{
+    z-index: 1;
+}
+header>.logo>svg:nth-child(1){
+    width: 24.8px;
+height: 25px;
+}
+header>.content-button>span>p{
+    color: #FFF;
+text-align: right;
+font-family: "Source Sans Pro";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 14.3px */
+opacity: 0.5;
+}
+header>.content-button>a>button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 17.6px */
+padding: 10px 20px;
+border-radius: 40px;
+border:1px solid rgb(255 255 255 / 50%);
+}
