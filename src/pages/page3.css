@@ -1,27 +1,4 @@
 
-
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url("../assets/fonts/SourceSansPro-Regular.otf") format("OpenType");
-    font-weight: 600;
-}
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url("../assets/fonts/SourceSansPro-Light.otf") format("OpenType");
-    font-weight: 300;
-}
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url("../assets/fonts/SourceSansPro-Regular.otf") format("OpenType");
-    font-weight: 400;
-}
-
-      
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .page3-container{
     position: relative;
     z-index: 100;

@@ -21,9 +21,7 @@
     left: -40%;
     filter: blur(80px);
     background: radial-gradient(50% 50% at 50% 50%, #A172EF 0%, rgba(76, 31, 206, 0.19) 49.48%, rgba(255, 34, 74, 0.00) 100%, rgba(38, 34, 255, 0.00) 100%);
-    /*
-    background: radial-gradient(50% 50% at 50% 50%, #A172EF 0%, rgba(76, 31, 206, 0.5) 49.48%, rgba(255, 34, 74, 0.00) 100%, rgba(38, 34, 255, 0.00) 100%);
-    */
+   
 }
 
 .home1-container>.content{
