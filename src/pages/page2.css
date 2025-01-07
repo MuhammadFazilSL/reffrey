@@ -3,7 +3,7 @@
     position: relative;
     z-index: 100;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
     background: linear-gradient(180deg, #19191A 0%, #1B1F42 66.67%, #16233E 83.33%, #121721 97.92%);
