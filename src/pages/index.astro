@@ -2,11 +2,11 @@
 import Header from '../components/header/Header.astro';
 import Home1 from '../components/home1/home1.astro'
 import Layout from '../layouts/Layout.astro';
-import Page2 from './page2.astro';
-import Page3 from './page3.astro';
-import Page4 from './page4.astro';
 import "./global.css"
 import "./page1.css";
+import Home2 from '../components/home2/home2.astro';
+import Home3 from '../components/home3/home3.astro';
+import Home4 from '../components/home4/home4.astro';
 
 const headerDetail = {
 	p1 : "AI assisted mobile application to find a professional",
@@ -20,8 +20,8 @@ const headerDetail = {
 		<img src="/reffrey/images/noise.png" alt="bg">
 		<Header headerDetail={headerDetail} />
 		<Home1 />
-		<Page2 />
-		<Page3 />
-		<Page4 />
+		<Home2 />
+		<Home3 />
+		<Home4 />
 	</div>
 </Layout>

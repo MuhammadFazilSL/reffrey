@@ -1,7 +1,6 @@
 .home1-container{
     display: flex;
     position: relative;
-    margin-top: 100px;
 }
 .home1-container>img{
     width: 580px;
@@ -9,6 +8,7 @@
     object-fit: contain;
     margin-left: 200px;
     z-index: 2;
+
 }
 
 .home1-container>.purpleCircle{
@@ -31,7 +31,7 @@
     position: relative;
     left: -285px;
     top: -30px;
-
+    z-index: 10;
 }
 .home1-container>.content::before{
     position: absolute;
@@ -43,7 +43,7 @@
     border-bottom: 1px solid #FFF;
     border-left: 1px solid #FFF;
 }
-.home1-container>.content>p:nth-child(1){
+.home1-container>.content>h1:nth-child(1){
     color: #FFF;
     font-family: "Source Sans Pro";
     font-size: 62px;
@@ -51,8 +51,8 @@
     font-weight: 300;
     line-height: 110%; /* 68.2px */
 }
-.home1-container>.content>p:nth-child(2),
-.home1-container>.content>p:nth-child(3){
+.home1-container>.content>h1:nth-child(2),
+.home1-container>.content>h1:nth-child(3){
     color: #FFF;
 font-family: "Source Sans Pro";
 font-size: 62px;
@@ -60,13 +60,13 @@ font-style: normal;
 font-weight: 600;
 line-height: 110%;
 }
-.home1-container>.content>p:nth-child(3)>span{
+.home1-container>.content>h1:nth-child(3)>span{
     color: #D274FF;
 }
 .home1-container>.scroll-down{
     position: absolute;
     bottom: 0;
-    left: 40%;
+    left: 45%;
     z-index: 3;
     display: flex;
     gap: 15px;
@@ -93,4 +93,29 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 110%; /* 15.4px */
+}
+
+@media screen and (max-width:1380px) {
+    .home1-container>img {
+        position: relative;
+        top: -68px;
+    width: 530px;
+    height: 509px;
+    }
+    .home1-container>.purpleCircle {
+        
+    }
+    .home1-container>.content{
+        top: -20px;
+        padding: 0 0 35px 35px;
+    }
+    .home1-container>.content>h1:nth-child(1) {
+        font-size: 48px;
+    }
+    .home1-container>.content>h1:nth-child(2), .home1-container>.content>h1:nth-child(3) {
+        font-size: 48px;
+    }
+    .home1-container>.scroll-down {
+        bottom: 55px;
+    }
 }
