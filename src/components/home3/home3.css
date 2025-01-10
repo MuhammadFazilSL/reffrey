@@ -67,7 +67,7 @@
     border-right: 1px solid #FFF;
     border-left: 1px solid #FFF;
 }
-.page3-container>.home3-container>.content>h1{
+.page3-container>.home3-container>.content>h3{
     color: #FFF;
     font-family: "Source Sans Pro";
     font-size: 36px;
@@ -75,7 +75,7 @@
     font-weight: 300;
     line-height: 110%;
 }
-.page3-container>.home3-container>.content>h1:nth-child(1)>span{
+.page3-container>.home3-container>.content>h3:nth-child(1)>span{
     color: #23CCFD;
     text-align: center;
     font-family: "Source Sans Pro";

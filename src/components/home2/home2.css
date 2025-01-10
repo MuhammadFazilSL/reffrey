@@ -64,7 +64,7 @@
     border-bottom: 1px solid #FFF;
     border-right: 1px solid #FFF;
 }
-.page2-container>.home2-container>.content>h1{
+.page2-container>.home2-container>.content>h2{
     color: #FFF;
     font-family: "Source Sans Pro";
     font-size: 62px;
@@ -72,7 +72,7 @@
     font-weight: 300;
     line-height: 110%; /* 68.2px */
 }
-.page2-container>.home2-container>.content>h1:nth-child(3)>span{
+.page2-container>.home2-container>.content>h2:nth-child(3)>span{
     color: #1199F3;
     font-family: "Source Sans Pro";
     font-size: 62px;
@@ -82,5 +82,7 @@
 }
 
 @media screen and (max-width:1380px) {
-    
+    .page2-container>.home2-container>.content>h2 {
+        font-size: 60px;
+    }
 }
